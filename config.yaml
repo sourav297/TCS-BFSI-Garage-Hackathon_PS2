@@ -1,0 +1,13 @@
+ocr:
+  language: eng
+  psm: 6
+
+preprocessing:
+  blur: 3
+  thresholding: otsu
+  grayscale: true
+
+app:
+  upload_types: ["jpg", "jpeg", "png", "pdf"]
+  max_file_size_mb: 5
+  debug_mode: false
